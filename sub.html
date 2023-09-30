@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeNow</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"> -->
+</head>
+<body>
+    <!--Шапка-->
+    <header class="header">
+        
+        
+        <nav class="site-nav">
+            <div class="container site-nav-div">
+                <h1 class="logoImg"><a href="./index.html"><img src="./piktures/bikelogo.png" alt=""></a></h1>
+
+                <ul class="list list-nav">
+                    <li class="item-nav item-nav1"><a href="./sub.html" class="link link2 link-nav">Підписка</a></li>
+                    <li class="item-nav item-nav2"><a href="./marketPlace.html" class="link link2 link-nav">Маркетплейс</a></li>
+                    <li class="item-nav item-nav3"><a href="./bonus.html" class="link link2 link-nav">Бонуси</a></li>
+                </ul>
+                        <ul class="list auth-nav">
+                                <li class="item-auth-nav">
+                                    <a href="mailto:info@devstudio.com" class="link">
+                                        <svg class="svg-mail icon">
+                                            <use href="./pictures/contacts.svg#mail"></use> 
+                                        </svg> 
+                                         info@devstudio.com
+                                    </a>
+                                </li>
+                            
+                               
+                            <li class="item-auth-nav">
+                                <a href="tel:+380961111111" class="link">
+                               <svg class="icon-smartphone icon">
+                                   <use href="./pictures/contacts.svg#smartfone"></use>
+                               </svg> 
+                               +38 096 111 11 11</a>
+                            </li>
+                       </ul>
+
+                    
+
+            
+
+               
+            </div>
+        </nav> 
+
+        
+    </header>
+
+    <main>
+      <!--Герой-->  
+         
+
+        <!--Задачі та ідеї-->
+        <section class="container container2">
+            <ul class="list card-set2">
+                <li class="item2 item21">
+                    <h2 class="title-of-idea title">Внимание к деталям</h2>
+                    <p class="text-of-idea">Идейные соображения, a также<br> начало повседневной работы по<br> формированию позиции.</p>
+                </li>
+
+                <li class="item2 item22">
+                    <h2 class="title-of-idea title">Пунктуальность</h2>
+                    <p class="text-of-idea">Задача организации, в особенности<br> же рамки и место обучения кадров<br> влечет за собой.</p>
+                </li>
+
+                <li class="item2 item23">
+                    <h2 class="title-of-idea title">Планирование</h2>
+                    <p class="text-of-idea">Равным образом консультация с<br> широким активом в значительной<br> степени обуславливает.</p>
+                </li>
+
+                <li class="item2 item24">
+                    <h2 class="title-of-idea title">Современлогии</h2>
+                    <p class="text-of-idea">Значимость этих проблем настолько<br> очевидна, что реализация плановых<br> заданий.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!--Заняття-->
+        
+
+    </main>
+
+    <footer>
+        <div class="footer-flex container5">
+
+            <div class="footer-flex2">
+                <a href="./" class="logo"><span class="web">Web</span><span class="studio2">Studio</span></a>
+                <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+                <ul class="list">
+                    <li class="link l1"><a href="" class="contacts con2">info@example.com</a></li>
+                    <li class="link l2"><a href="" class="contacts con21">+38 099 111 11 11</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-flex3">
+                <h2 class="join">присоединяйтесь</h2>
+                 
+                <ul class="list masengers-list">
+                    <li class="masenger">
+                        <a href="" class="link-msg2">
+                            <svg class="ms-logo">
+                                <use href="./pictures/symbol-defs2.svg#icon-instagram2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="masenger">
+                        <a href="" class="link-msg2">
+                            <svg class="ms-logo">
+                                <use href="./pictures/symbol-defs2.svg#icon-twiter2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="masenger">
+                        <a href="" class="link-msg2">
+                            <svg class="ms-logo">
+                                <use href="./pictures/symbol-defs2.svg#icon-facebook1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="masenger">
+                        <a href="" class="link-msg2">
+                            <svg class="ms-logo">
+                                <use href="./pictures/symbol-defs2.svg#icon-linkedin1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+            
+            
+
+    </footer>
+
+    <!-- <div class="backdrop is-hidden" data-backdrop>
+        <div class="modal">
+            <div class="buttan"> -->
+
+                <!-- <button data-close-modal>close</button> -->
+                <!-- <a class="ic" data-close-modal>
+                    <svg class="ico-close" >
+                        <use href="./pictures/close.svg#close"></use>
+                    </svg>
+                </a>
+            </div>
+        </div> -->
+
+
+
+    <!-- </div> -->
+
+    <script>
+        const refs = {
+            openModalBtn: document.querySelector("[data-open-modal]"),
+            closeModalBtn: document.querySelector("[data-close-modal]"),
+            backdrop: document.querySelector("[data-backdrop]")
+        };
+
+        refs.openModalBtn.addEventListener("click", toggleModal);
+        refs.closeModalBtn.addEventListener("click", toggleModal);
+        refs.backdrop.addEventListener("click", logBackdropClick);
+
+        function toggleModal( ) {
+            refs.backdrop.classList.toggle("is-hidden");
+        }
+
+        function logBackdropClick( ) {
+            console.log("Ето клик в бекдроп");
+        }
+    </script>
+    
+</body>
+</html>
